@@ -4,10 +4,11 @@ This package is an example application used to verify JWTs issued by Cloudflare 
 available JWKS endpoint.
 
 ## Prerequisites
-- `yarn`
-- `nvm`
+- `yarn` - [https://classic.yarnpkg.com/lang/en/docs/install](https://classic.yarnpkg.com/lang/en/docs/install)
+- `nvm` - [https://github.com/nvm-sh/nvm#installing-and-updating](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 ## Usage
+- `git clone https://github.com/ianmobbs/cf-jwt-verifier && cd cf-jwt-verifier`
 - `nvm use`
 - `yarn`
 - `yarn verify`
