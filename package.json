@@ -1,0 +1,16 @@
+{
+  "name": "cf-jwt-verify",
+  "version": "0.0.1",
+  "description": "Cloudflare JWT Verification Examples",
+  "main": "index.js",
+  "author": "imobbs@cloudflare.com",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "verify": "node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.3",
+    "node-jose": "^2.1.1"
+  }
+}
